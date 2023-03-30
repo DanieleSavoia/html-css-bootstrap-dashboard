@@ -11,13 +11,44 @@
 
 
 .container-left {
-    width: 100px;
+    width: 200px;
     height: 90vh;
+    background-image: url(img/sidebar-bg.png);
+    background-color: #0b2439;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+ }
+.logo-small { width: 130px;
+              height: 80px;
+             }
+
+.logo { width: 130px;
+              height: 80px; }
+              
+.container-two{
     background-color: red;
+    display: flex;
+    flex-direction: column;
+ }
+.container-three {
+    margin-left: 200px;
+    width: calc(100% - 200px);
  }
 { }
-{ }
-{ }
-{ }
-{ }
-{ }
+
+.cont-1{
+    height: 10vh;
+    position: fixed 1;
+ }
+
+ .container-fluid{
+    height: 10vh;
+    position: fixed 1;
+ }
+
+.c{ }
