@@ -10,25 +10,21 @@
 
 
 
-.container-left {
-    width: 200px;
+.bg-image {
+    
     height: 90vh;
     background-image: url(img/sidebar-bg.png);
     background-color: #0b2439;
-    margin-top: 0;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    align-items: center;
-    gap: 10px;
-    position: fixed;
+    color:white
+   
  }
-.logo-small { width: 130px;
+.logo-small { width: 100px;
               height: 80px;
              }
 
 .logo { width: 130px;
-              height: 80px; }
+              height: 80px; 
+            margin-left: 10px;}
               
 .container-two{
     background-color: red;
@@ -39,7 +35,15 @@
     margin-left: 200px;
     width: calc(100% - 200px);
  }
-{ }
+ .container-four {
+   margin-left: 200px;
+   width: calc(100% - 200px);
+}
+.alignment {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
 
 .cont-1{
     height: 10vh;
@@ -52,3 +56,7 @@
  }
 
 .c{ }
+
+
+
+
